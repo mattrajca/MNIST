@@ -28,11 +28,20 @@
                                     <action selector="test:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zft-il-iRw"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zR8-fp-nWH">
+                                <rect key="frame" x="144" y="356" width="86" height="30"/>
+                                <state key="normal" title="Test on GPU"/>
+                                <connections>
+                                    <action selector="testGPU:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jv3-JX-XQY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="j5b-oS-QCH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ClM-3O-4kc"/>
                             <constraint firstItem="j5b-oS-QCH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mVf-ol-5WQ"/>
+                            <constraint firstItem="zR8-fp-nWH" firstAttribute="top" secondItem="j5b-oS-QCH" secondAttribute="bottom" constant="8" id="noJ-4F-SGc"/>
+                            <constraint firstItem="zR8-fp-nWH" firstAttribute="centerX" secondItem="j5b-oS-QCH" secondAttribute="centerX" id="x1u-oF-DtF"/>
                         </constraints>
                     </view>
                 </viewController>
